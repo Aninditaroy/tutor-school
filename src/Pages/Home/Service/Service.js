@@ -6,7 +6,7 @@ const Service = ({ service }) => {
     const { id,name, img, price, description, course_title } = service;
     const navigate = useNavigate();
     const navigateToServiceDetail = ()=>{
-        navigate(`/checkout/services/${id}`);
+        navigate(`/service/checkout/${id}`);
     }
     return (
         <>
