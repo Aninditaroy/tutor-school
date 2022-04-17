@@ -1,10 +1,7 @@
 import React from 'react';
 import './Services.css';
-import coach from '../../../images/home/coach.png';
-import tutor from '../../../images/home/tutor.png';
 import useServices from './../../../Hooks/useServices';
 import Service from '../../Home/Service/Service';
-import { Link } from 'react-router-dom';
 const Services = () => {
     const [services] = useServices();
     return (

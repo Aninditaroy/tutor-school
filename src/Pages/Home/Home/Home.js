@@ -4,10 +4,12 @@ import { useNavigate } from 'react-router-dom';
 import useServices from '../../../Hooks/useServices';
 import Service from '../Service/Service';
 import tutor from '../../../images/home/tutor2.png';
+import Footer from '../../Shared/Footer/Footer';
 const Home = () => {
     const [services] = useServices();
     const navigate = useNavigate();
     return (
+        <>
         <section>
         <div className='bg-blue-600/10 pt-5'>
                 <div className='flex lg:flex-row home-area items-center lg:mx-52 '>
@@ -33,6 +35,8 @@ const Home = () => {
             </span>
         </div>
         </section>
+        <Footer/>
+        </>
     );
 };
 
