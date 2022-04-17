@@ -4,7 +4,7 @@
   "email": "kbinion0@e-recht24.de",
   "img": "https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVhY2hlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
   "price": "$480.18",
-  "description": "I have been tutoring Mathematics, Physics, Electrical Engineering and MATLAB for more than 10 years now. While I was a graduate student, I was appointed as a teaching assistant for courses such as electronic circuit analysis, differential equations, solid state physics. I specialize in helping with problem-solving techniques, preparing for a test and numerical analysis.",
+  "description": "I have been tutoring Mathematics, Physics, Electrical Engineering and MATLAB for more than 10 years now.I specialize in helping with problem-solving techniques, preparing for a test and numerical analysis.",
   "job_title": "Math tutor"
 }, {
   "id": 2,
@@ -12,32 +12,32 @@
   "email": "gpostance1@salon.com",
   "img": "https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhY2hlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
   "price": "$229.58",
-  "description": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
-  "job_title": "History tutor"
+  "description": "Algebra course is to develop the idea on different topics of algebra. The course starts with the discussion on the concepts of Functions. It includes the discussion on how to write different types of linear equation, linear inequalities, evaluation of linear function.",
+  "job_title": "Algebra Course"
 }, {
   "id": 3,
   "name": "Hercule Menego",
   "email": "hmenego2@slashdot.org",
   "img": "https://images.unsplash.com/flagged/photo-1559475555-b26777ed3ab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVhY2hlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
   "price": "$299.85",
-  "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
-  "job_title": "Accounting tutor"
+  "description": "Statistics course gives an overview of various topics related to Statistics and Probability. The aim of this course is to provide an explanation about the types of data and statistics.",
+  "job_title": "Statistics tutor"
 }, {
   "id": 4,
   "name": "Merridie Giacomucci",
   "email": "mgiacomucci3@posterous.com",
   "img": "https://images.unsplash.com/photo-1608403689838-a9014243d151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHRlYWNoZXJ8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
   "price": "$491.92",
-  "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
-  "job_title": "Math tutor"
+  "description": " Physics 101 Mechanics course focuses on fundamental physics ideas and their applications in everyday life. One learns the fundamental principles of physical laws and how to apply them to the behavior of objects by studying the physics of motion from the ground up.",
+  "job_title": "Physics 101 Mechanics Course"
 }, {
   "id": 5,
   "name": "Rosalinda Purple",
   "email": "rpurple4@oaic.gov.au",
   "img": "https://images.unsplash.com/photo-1542190891-2093d38760f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHRlYWNoZXIlMjBtYWxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
   "price": "$144.90",
-  "description": "",
-  "job_title": "Engineering tutor"
+  "description": "Chemistry course deals with the inorganic and physical branches of chemistry. The course includes the discussion of the periodic table and its properties. The structure and bonding of different types of molecules and ions are also covered in the course.",
+  "job_title": "Chemistry 101 Course"
 }, {
   "id": 6,
   "name": "Norbie Odger",
@@ -60,102 +60,55 @@
   "email": "hkersley7@nasa.gov",
   "img": "https://images.unsplash.com/photo-1487309078313-fad80c3ec1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRlYWNoZXIlMjBtYWxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
   "price": "$358.90",
-  "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
-  "job_title": "Administrative Assistant I"
+  "description": "Sports Management course is offered for those who have a knack for management and loves to pursue a career in the sports industry. Candidates in the field of Sports Management are expected to hold planning, organising, controlling, budgeting, or directing skills in an organisation that deals in the sports business",
+  "job_title": "Sports course"
 }, {
   "id": 9,
   "name": "Lockwood Scuse",
   "email": "lscuse8@businessweek.com",
-  "img": "https://images.unsplash.com/photo-1624260618618-3e652ad6f566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHRlYWNoZXJ8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+  "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
   "price": "$440.72",
-  "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
-  "job_title": "Analyst Programmer"
+  "description": "Calculus 1/AB course focuses on the fundamental concept of calculus. This includes the concept of Function, different types of functions and their properties and graphs, limits of different types of function, indeterminate form, condition of differentiability, derivative rules and differentiation. ",
+  "job_title": "Calculus 1 course"
 }, {
   "id": 10,
   "name": "Hulda Fero",
   "email": "hfero9@myspace.com",
   "img": "https://images.unsplash.com/photo-1573165850883-9b0e18c44bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHByb2Zlc3Npb25hbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
   "price": "$270.26",
-  "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
-  "job_title": "Speech Pathologist"
+  "description": "The main idea of calculus aim is to clear the concept of rational numbers, functions, definition and properties, types of functions, transformation.",
+  "job_title": "Precalculus Course"
 }, {
   "id": 11,
   "name": "Hildegarde Sanz",
   "email": "hsanza@squarespace.com",
   "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2Zlc3Npb25hbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
   "price": "$283.09",
-  "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
-  "job_title": "Senior Quality Engineer"
+  "description": "Chemistry course deals with the organic branch of chemistry. It starts off with the introduction to organic chemistry, which aids in building the foundation for all the other topics to be discussed in the course. ",
+  "job_title": "Organic Chemistry Course"
 }, {
   "id": 12,
   "name": "Fergus Felten",
   "email": "ffeltenb@mac.com",
-  "img": "https://images.unsplash.com/photo-1507206130118-b5907f817163?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2Zlc3Npb25hbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
+  "img": "myukhnini@goo.gl",
+  "img": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
   "price": "$222.78",
-  "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
-  "job_title": "Data Coordiator"
+  "description": "Biology is the branch of science that deals with living organisms (also viruses, which are neither living nor dead) and the components they are made up of. The basic unit of a living system is a cell that comprises various interacting chemical entities.",
+  "job_title": "Biology Course"
 }, {
   "id": 13,
   "name": "Alastair Terzza",
   "email": "aterzzac@stumbleupon.com",
   "img": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2Zlc3Npb25hbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
   "price": "$254.11",
-  "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
-  "job_title": "General Manager"
+  "description": "ACT course discusses the ACT test by showcasing the English and Mathematics section of the test followed by the reading and the Science section. The course provides the discussion on the grammatical part and the reading and writing sections of English. ",
+  "job_title": "ICT tutor"
 }, {
   "id": 14,
   "name": "Bale Alyutin",
   "email": "balyutind@msn.com",
   "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
   "price": "$315.82",
-  "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-  "job_title": "Account Representative III"
-}, {
-  "id": 15,
-  "name": "Wainwright Krammer",
-  "email": "wkrammere@europa.eu",
-  "img": "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmVzc2lvbmFsfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-  "price": "$300.32",
-  "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
-  "job_title": "Senior Cost Accountant"
-}, {
-  "id": 16,
-  "name": "Kacey Handaside",
-  "email": "khandasidef@seesaa.net",
-  "img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmVzc2lvbmFsfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-  "price": "$183.01",
-  "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
-  "job_title": "Civil Engineer"
-}, {
-  "id": 17,
-  "name": "Wilbert Innis",
-  "email": "winnisg@cisco.com",
-  "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmVzc2lvbmFsfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-  "price": "$458.39",
-  "description": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-  "job_title": "Geologist I"
-}, {
-  "id": 18,
-  "name": "Allison Uzielli",
-  "email": "auziellih@tiny.cc",
-  "img": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
-  "price": "$491.92",
-  "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
-  "job_title": "VP Sales"
-}, {
-  "id": 19,
-  "name": "Merla Yukhnin",
-  "email": "myukhnini@goo.gl",
-  "img": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-  "price": "$123.00",
-  "description": "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
-  "job_title": "Senior Quality Engineer"
-}, {
-  "id": 20,
-  "name": "Addie Bartelli",
-  "email": "abartellij@reverbnation.com",
-  "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-  "price": "$319.20",
-  "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
-  "job_title": "Nurse"
+  "description": "CS course aims to develop basic programming skills among students. It begins with the computer science overview. Then, it introduces Java concepts focusing on the basic syntax and structure of the programs in Java. It then explains about various data types in Java, and the declaration ",
+  "job_title": "CS crash course tutor"
 }]
