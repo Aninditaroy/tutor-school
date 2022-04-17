@@ -12,7 +12,7 @@ const Home = () => {
         <>
         <section>
         <div className='bg-blue-600/10 pt-5'>
-                <div className='flex lg:flex-row home-area items-center lg:mx-52 '>
+                <div className='flex lg:flex-row home-area items-center lg:mx-52'>
                     <div>
                         <span className=''>
                             <h2 className='shrink  home-heading text-blue-600/70 sm:text-xl'>Inspiring tutors, 

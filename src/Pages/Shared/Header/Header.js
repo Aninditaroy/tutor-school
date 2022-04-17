@@ -48,12 +48,6 @@ const Header = () => {
                                 Blogs
                             </Link>
                             <Link
-                                className="nav-item px-3 py-2 flex items-center  hover:opacity-75"
-                                as={Link} to="/cart">
-                                Cart
-                            </Link>
-
-                            <Link
                                 className="nav-item px-3 py-2 flex items-center hover:opacity-75"
                                 as={Link} to="/about">
                                 About    
