@@ -1,0 +1,24 @@
+.home-heading {
+    font-size: 96px;
+    line-height: 96px;
+    text-align: start;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+}
+.home-img{
+    width: 500px;
+}
+@media screen and  (max-width:640px){
+    .home-heading {
+        font-size: 56px;
+        text-align: start;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 700;
+    }
+    .home-img{
+        width: 100%;
+    }
+    .home-area {
+        flex-direction: column;
+    }
+}

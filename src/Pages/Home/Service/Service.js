@@ -23,7 +23,7 @@ const Service = ({ service }) => {
                     <h5  class="text-xs tex text-slate-600 mx-8 my-4">{description}</h5>
                     <div className='border border-b-1 border border-gray-200 mb-2 w-44'></div>
                     <div className="flex items-center  mt-4 space-x-3 lg:mt-6">
-                        <Link as={Link} to='/cart' className="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Book Tutor</Link>
+                        <Link as={Link} to='/cart' className="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">Book Tutor</Link>
                         <Link as={Link} to='/about' className="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Know More</Link>
                     </div>
                 </div>
