@@ -1,114 +1,99 @@
 [{
   "id": 1,
-  "name": "Kristin Binion",
-  "email": "kbinion0@e-recht24.de",
-  "img": "https://images.unsplash.com/flagged/photo-1574110906643-8311b0ce29d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRlYWNoZXJ8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "name": "Mathematics 101",
+  "img": "https://img.freepik.com/free-vector/math-science-concept-with-school-lesson-items-retro-cartoon-style_1284-8084.jpg?t=st=1650209095~exp=1650209695~hmac=8533aae1950c7296604cbc96c8c673f0f78ede5e09e9e10504d3f0bc625f0aa8&w=826",
   "price": "$480.18",
   "description": "I have been tutoring Mathematics, Physics, Electrical Engineering and MATLAB for more than 10 years now.I specialize in helping with problem-solving techniques, preparing for a test and numerical analysis.",
-  "job_title": "Math tutor"
+  "course_title": "Math course"
 }, {
   "id": 2,
-  "name": "Giffy Postance",
-  "email": "gpostance1@salon.com",
-  "img": "https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhY2hlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
+  "name": "Algebra",
+  "img": "https://img.freepik.com/free-vector/tiny-students-with-huge-sign-pi-flat-vector-illustration-boy-girl-studying-math-algebra-school-college-holding-ruler-using-laptop-geometric-figures-background-education-concept_74855-23227.jpg?t=st=1650209463~exp=1650210063~hmac=380061491d9b9a353a7dc87495cb0d9594647e2a78b13cf5a4099534204b711a&w=996",
   "price": "$229.58",
   "description": "Algebra course is to develop the idea on different topics of algebra. The course starts with the discussion on the concepts of Functions. It includes the discussion on how to write different types of linear equation, linear inequalities, evaluation of linear function.",
-  "job_title": "Algebra Course"
+  "course_title": "Algebra Course"
 }, {
   "id": 3,
-  "name": "Hercule Menego",
-  "email": "hmenego2@slashdot.org",
-  "img": "https://images.unsplash.com/flagged/photo-1559475555-b26777ed3ab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVhY2hlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
+  "name": "Intro Stats / AP Statistics Course",
+  "img": "https://img.freepik.com/free-vector/people-analyzing-growth-charts-illustrated_23-2148865274.jpg?w=826",
   "price": "$299.85",
   "description": "Statistics course gives an overview of various topics related to Statistics and Probability. The aim of this course is to provide an explanation about the types of data and statistics.",
-  "job_title": "Statistics tutor"
+  "course_title": "Statistics course"
 }, {
   "id": 4,
-  "name": "Merridie Giacomucci",
-  "email": "mgiacomucci3@posterous.com",
-  "img": "https://images.unsplash.com/photo-1608403689838-a9014243d151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHRlYWNoZXJ8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+  "name": "Physics 101 Mechanics Course",
+  "img": "https://img.freepik.com/free-vector/tiny-people-standing-near-pendulum-isolated-flat-illustration_74855-11130.jpg?t=st=1650209590~exp=1650210190~hmac=0da8bc2683e6327250a9b0207820751bb2df10afc62a494bd035cad8d6a37155&w=826",
   "price": "$491.92",
   "description": " Physics 101 Mechanics course focuses on fundamental physics ideas and their applications in everyday life. One learns the fundamental principles of physical laws and how to apply them to the behavior of objects by studying the physics of motion from the ground up.",
-  "job_title": "Physics 101 Mechanics Course"
+  "course_title": "Physics Course"
 }, {
   "id": 5,
-  "name": "Rosalinda Purple",
-  "email": "rpurple4@oaic.gov.au",
-  "img": "https://images.unsplash.com/photo-1542190891-2093d38760f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHRlYWNoZXIlMjBtYWxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  "name": "Geometry and Polygon Course",
+  "img": "https://img.freepik.com/free-vector/architecture-tools-design_24877-49734.jpg?t=st=1650210479~exp=1650211079~hmac=22e0e6ac24cbea58a6ecf16a20b4850ae9baed7de5e99b566c0291d12e47d985&w=826",
   "price": "$144.90",
-  "description": "Chemistry course deals with the inorganic and physical branches of chemistry. The course includes the discussion of the periodic table and its properties. The structure and bonding of different types of molecules and ions are also covered in the course.",
-  "job_title": "Chemistry 101 Course"
+  "description": "Geometry is the branch of Mathematics that deals with different geometric figures and their properties.Geometry course gives an idea of types of lines, parallel and perpendicular lines, Types of triangles as Right Triangles, Relationship within Triangles, Circle, Terminology, Volume.",
+  "course_title": "Math Course"
 }, {
   "id": 6,
-  "name": "Norbie Odger",
-  "email": "nodger5@dagondesign.com",
-  "img": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGVhY2hlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
+  "name": "Coding and Programming Crash Course",
+  "img": "https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?t=st=1650210507~exp=1650211107~hmac=290b5b5d0d6bd480450e96926cf7616e9409155815da647b90538cf69e914ba3&w=826",
   "price": "$348.60",
   "description": "I am a qualified software engineer. I am very good at C, C++, Java, Python, Data Structure, Operating systems, and other computer science subjects.",
-  "job_title": "Programming tutor"
+  "course_title": "Tech course"
 }, {
   "id": 7,
-  "name": "Beniamino Annell",
-  "email": "bannell6@github.com",
-  "img": "https://images.unsplash.com/photo-1544168190-79c17527004f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHRlYWNoZXIlMjBtYWxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  "name": "Electricity and Magnetism Course",
+  "img": "https://img.freepik.com/free-vector/bundle-engineering-set-icons_24877-57315.jpg?t=st=1650210532~exp=1650211132~hmac=ff138a40a678507d1173b2f58d55437703ccf23c09750ac55645a100d4a2c063&w=900",
   "price": "$453.03",
   "description": "Mechanical and Manufacturing Engineer at Air Taxi startup. Academic Background in Mechanical Engineering, Computer Science and Mathematics.",
-  "job_title": "Mechanical Eng. tutor"
+  "course_title": "Mechanical Eng. course"
 }, {
   "id": 8,
-  "name": "Herminia Kersley",
-  "email": "hkersley7@nasa.gov",
-  "img": "https://images.unsplash.com/photo-1487309078313-fad80c3ec1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRlYWNoZXIlMjBtYWxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  "name": "Sports and Fitness Course",
+  "img": "https://img.freepik.com/free-vector/gym-fitness-elements-set_1284-39992.jpg?t=st=1650210589~exp=1650211189~hmac=5a6d31f196520b53ef7a040d44a5e6e899b907a7b45a6dcdd10c0afc6841efb3&w=826",
   "price": "$358.90",
   "description": "Sports Management course is offered for those who have a knack for management and loves to pursue a career in the sports industry. Candidates in the field of Sports Management are expected to hold planning, organising, controlling, budgeting, or directing skills in an organisation that deals in the sports business",
-  "job_title": "Sports course"
+  "course_title": "Sports course"
 }, {
   "id": 9,
-  "name": "Lockwood Scuse",
-  "email": "lscuse8@businessweek.com",
-  "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  "name": "IELTS Course",
+  "img": "https://img.freepik.com/free-vector/online-uk-english-language-courses-isometric-3d-illustration_88272-2014.jpg?w=826",
   "price": "$440.72",
-  "description": "Calculus 1/AB course focuses on the fundamental concept of calculus. This includes the concept of Function, different types of functions and their properties and graphs, limits of different types of function, indeterminate form, condition of differentiability, derivative rules and differentiation. ",
-  "job_title": "Calculus 1 course"
+  "description": "The course provides the discussion on the grammatical part and the reading,speaking and writing sections of English.",
+  "course_title": "English course"
 }, {
   "id": 10,
-  "name": "Hulda Fero",
-  "email": "hfero9@myspace.com",
-  "img": "https://images.unsplash.com/photo-1573165850883-9b0e18c44bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHByb2Zlc3Npb25hbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
+  "name": "Precalculus Course",
+  "img": "https://img.freepik.com/free-vector/math-background_23-2148147349.jpg?t=st=1650210658~exp=1650211258~hmac=a27561a4ee91b4fd9eccf52f2afabe230651b303b25ced8d6b6837b44873fc6b&w=826",
   "price": "$270.26",
   "description": "The main idea of calculus aim is to clear the concept of rational numbers, functions, definition and properties, types of functions, transformation.",
-  "job_title": "Precalculus Course"
+  "course_title": "Math Course"
 }, {
   "id": 11,
-  "name": "Hildegarde Sanz",
-  "email": "hsanza@squarespace.com",
-  "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2Zlc3Npb25hbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
+  "name": "Organic Chemistry Course",
+  "img": "https://img.freepik.com/free-vector/biological-active-additives-set-beauty-vitamins-appetite-control-cardio-support-antioxidant-pills-isolated-illustration_1284-28279.jpg?t=st=1650210688~exp=1650211288~hmac=110c4a1ca1cc18f18578853b494216bdced12212530cefa3cbfce2b90d493789&w=996",
   "price": "$283.09",
   "description": "Chemistry course deals with the organic branch of chemistry. It starts off with the introduction to organic chemistry, which aids in building the foundation for all the other topics to be discussed in the course. ",
-  "job_title": "Organic Chemistry Course"
+  "course_title": "Chemistry Course"
 }, {
   "id": 12,
-  "name": "Fergus Felten",
-  "email": "ffeltenb@mac.com",
-  "img": "myukhnini@goo.gl",
-  "img": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  "name": "Biology & Zoology Course",
+  "img": "https://img.freepik.com/free-vector/biology-laboratory-workspace-design-concept_1284-11559.jpg?t=st=1650210716~exp=1650211316~hmac=12b50a35d88fc7638719d210ecc54d0ea26d0ee58734c035d9ae154c7a9da8fe&w=826",
   "price": "$222.78",
   "description": "Biology is the branch of science that deals with living organisms (also viruses, which are neither living nor dead) and the components they are made up of. The basic unit of a living system is a cell that comprises various interacting chemical entities.",
-  "job_title": "Biology Course"
+  "course_title": "Biology Course"
 }, {
   "id": 13,
-  "name": "Alastair Terzza",
-  "email": "aterzzac@stumbleupon.com",
-  "img": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2Zlc3Npb25hbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
+  "name": "ICT Crash Course",
+  "img": "https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18383.jpg?t=st=1650210732~exp=1650211332~hmac=d857cfa3e03524b6ca608be456319aff82b864d05a7c273c0fbbe209e61ce9c4&w=826",
   "price": "$254.11",
-  "description": "ACT course discusses the ACT test by showcasing the English and Mathematics section of the test followed by the reading and the Science section. The course provides the discussion on the grammatical part and the reading and writing sections of English. ",
-  "job_title": "ICT tutor"
+  "description": "ICT course discusses the ICT test by showcasing the information and communications  section of the test followed by the reading and the Science section.",
+  "course_title": "Tech course"
 }, {
   "id": 14,
-  "name": "Bale Alyutin",
-  "email": "balyutind@msn.com",
-  "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+  "name": "Computer Science Crash Course ",
+  "img": "https://img.freepik.com/free-vector/code-testing-cartoon-banner-functional-test-methodology-programming-search-errors-bugs-website-platform-development-dashboard-usability-optimization-computer-pc-vector-illustration_107791-3766.jpg?t=st=1650210777~exp=1650211377~hmac=149a9d88838bbe33c0a8f9b79b85b4e147c72234a72fdcb894b47f2a8d263895&w=826",
   "price": "$315.82",
   "description": "CS course aims to develop basic programming skills among students. It begins with the computer science overview. Then, it introduces Java concepts focusing on the basic syntax and structure of the programs in Java. It then explains about various data types in Java, and the declaration ",
-  "job_title": "CS crash course tutor"
+  "course_title": "Tech course"
 }]

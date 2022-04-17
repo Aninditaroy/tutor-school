@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
-            <footer className="p-2 sm:p-6 sm:m-3 bg-white  bg-blue-600/10">
+            <footer className="p-2 sm:p-6 sm:m-3   bg-blue-600/10">
                 <span className="flex items-center font-bold leading-relaxed  mr-4 py-1 whitespace-nowrap text-4xl text-blue-600/80 pb-5 lg:ml-20">
                     <img src={logo} className="" alt="logo" />
                     <Link to="/">Tutor School</Link>
@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-        </>
+        </> 
     );
 };
 

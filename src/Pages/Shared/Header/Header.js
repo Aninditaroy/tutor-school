@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import hamburgerMenu from '../../../images/header/hamburger-menu.png';
+import services from '../../../images/header/services.png';
+import blogs from '../../../images/header/blogs.png';
+import about from '../../../images/header/about.png';
+import login from '../../../images/header/login.png';
 import logo from '../../../images/home/logo.png';
 import './Header.css';
 const Header = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        <>
-            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3  mb-3 nav-font shadow-xl ">
+        <div>
+            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3  mb-3 nav-font hover:shadow-lg">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <span
@@ -39,29 +43,33 @@ const Header = () => {
                             <Link
                                 className="nav-item px-3 py-2 flex items-center   hover:opacity-75"
                                 as={Link} to="/services">
+                               <img src={services} className="" alt="" />
                                 Services
                             </Link>
 
                             <Link
                                 className="nav-item px-3 py-2 flex items-center  hover:opacity-75"
                                 as={Link} to="/blogs">
+                                <img src={blogs} alt="" />
                                 Blogs
                             </Link>
                             <Link
                                 className="nav-item px-3 py-2 flex items-center hover:opacity-75"
                                 as={Link} to="/about">
+                                <img src={about} alt="" />
                                 About    
                             </Link>
                             <Link
                                 className="nav-item px-3 py-2 flex items-center hover:opacity-75"
                                 as={Link} to="/login">
+                              <img src={login} alt="" />
                                 Login   
                             </Link>
                         </div>
                     </div>
                 </div>
             </nav>
-        </>
+        </div>
     );
 };
 
