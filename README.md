@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Tutor School 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Live site link: [Tutor School](https://tutor-school.web.app/)
 
-## Available Scripts
+## Website Features
 
-In the project directory, you can run:
+* In header page,we can find services,blogs,about,login and logout route.From these routes we can access all of them.
 
-### `npm start`
+* In home page,you will get to know about tutor,who teaches a bunch of students.Here you can see the tutor website tagline and tutor's provided services.Also there's 3 courses serive detail and if you click on 'see all' button you will redirect to the Services route.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* In service route,Each course has a card which contain it's details like: course name,course demo photo,pricing,course short description and a booking button.By clicking this button,it will redirect to the checkout which is protected.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* At first the checkout page is protcted by login.If you are not logged in,then neither you access the checkout page nor book any courses.But if you logged in,you have to fill up a form to book your desired course.If you submit the form it will give you a confirmation message.
 
-### `npm test`
+* In blogs page,you will get to know about some question and ans(Q&A).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* In about route,you can know about me and my goal.
 
-### `npm run build`
+* In register page,you have to fill up the form which contain name,email and password.Then you have to agree to all the terms and conditions.Only then you can register.Once you registered you can simply log in.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* In login, you must give your registered email and password otherwise you will get an error.If you are new to tutor school you can register.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Once logged in, the log out/sign out button will be  appeared on the header, which will log out the user once clicked.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Other than that,you can also use some authentication by using google,github and facebook.For this,you have to give your valid account details and access.
 
-### `npm run eject`
+* In footer there are some details about website which has the website name,resources,legal and social follow details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Frameworks and Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Sweetalert
+* React toastify
+* Tailwind (CSS framework)
+* Flowbite(Tailwind component library)
+* React router dom
+* Google font(link added to index.html file)
+* React firebase hooks
+* and some Vanilla CSS
