@@ -19,8 +19,13 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
     const [sendPasswordResetEmail, passwordSending, passwordError] = useSendPasswordResetEmail(auth);
+    let errorElement;
     if (user) {
         navigate(from, { replace: true });
+    }
+    if (error) {
+        errorElement =
+            <p className='text-red-600/100 text-center'>Error: {error?.message}</p>
     }
     if(loading || passwordSending){
         return <Loading/>
@@ -62,6 +67,9 @@ const Login = () => {
                         <button className='text-sm font-medium text-gray-900  hover:underline text-start' onClick={resetPassword}>Reset password</button>
                     </p>
                     </form>  
+                    {errorElement}
+                    <br />
+                    <br />
                     <p className='text-sm font-medium text-gray-900 '>New to <span className='text-blue-600/80'>Tutor School</span> ? <Link to="/register" className='text-secondary pe-auto hover:underline text-slate-600/100' onClick={navigateRegister}>Please Register</Link></p>
                 </div>
             </div>
