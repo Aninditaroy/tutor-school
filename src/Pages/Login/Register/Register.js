@@ -5,7 +5,6 @@ import swal from 'sweetalert';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 import SocialLoginRegister from '../SocialLoginRegister/SocialLoginRegister';
-import './Register.css';
 const Register = () => {
     const [agree, setAgree] = useState(false);
     const navigate = useNavigate();

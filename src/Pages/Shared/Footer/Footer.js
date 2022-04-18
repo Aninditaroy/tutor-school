@@ -1,5 +1,4 @@
 import React from 'react';
-import './Footer.css';
 import logo from '../../../images/home/logo.png';
 import google from '../../../images/social/google.png';
 import facebook from '../../../images/social/facebook.png';
@@ -8,7 +7,6 @@ import github from '../../../images/social/github.png';
 import twitter from '../../../images/social/twitter.png';
 import youtube from '../../../images/social/youtube.png';
 import { Link } from 'react-router-dom';
-import Loading from '../Loading/Loading';
 const Footer = () => {
     return (
         <>

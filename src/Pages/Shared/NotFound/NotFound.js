@@ -1,5 +1,4 @@
 import React from 'react';
-import './NotFound.css';
 import notFound from '../../../images/notfound/notfound.svg';
 const NotFound = () => {
     return (
