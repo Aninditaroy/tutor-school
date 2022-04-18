@@ -10,7 +10,7 @@ const About = () => {
                         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Anindita Roy</h5>
                         <span class="text-sm text-gray-500 0">About Me</span>
                         <div class="flex mt-4 space-x-3 lg:mt-6 px-10">
-                          <p className='text-xl text-gray-500 0'>Hi! Currently i am student.I want to be web developer and want to learn many things.I always try think about out of the box and through this i want to develop key soft skills.I want to see myself doing an intership or a job.So far,that's my main goal.</p>
+                          <p className='text-xl text-gray-500 0'>Hi! Currently i am student.I want to be web developer and want to learn many things.I always try think out of the box and through this i want to develop key soft skills.I want to see myself doing an intership or a job.So far,that's my main goal.</p>
                         </div>
                 </div>
             </div>
