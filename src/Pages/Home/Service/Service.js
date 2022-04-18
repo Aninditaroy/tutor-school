@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import './Service.css';
 import tutor from '../../../images/home/tutor.png';
 import { Link } from 'react-router-dom';

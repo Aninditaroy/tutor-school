@@ -14,13 +14,10 @@ const Register = () => {
     }
     const [
         createUserWithEmailAndPassword,
-        user,
         loading,
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
-    if (user) {
-        console.log(user);
-    }
+  
     const registerAlert = () => {
         return swal({
             title: "Good job!",
@@ -65,10 +62,11 @@ const Register = () => {
                             <input onClick={() => setAgree(!agree)} id="terms" aria-describedby="terms" type="checkbox" className="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3" />
                         </div>
                         <div className="ml-3 text-sm">
-                            <label htmlFor="terms" className="font-medium text-gray-900 ">I agree with the <Link to='/' className="text-blue-600 hover:underline ">terms and conditions</Link></label>
+                            <label htmlFor="terms" className="font-medium text-gray-900 ">I agree with the <span className="text-blue-600 hover:underline ">terms and conditions</span></label>
                         </div>
                     </div>
                     <input type="submit" disabled={!agree} onClick={registerAlert} className="text-white bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-3 disabled:bg-blue-400 cursor-pointer disabled:cursor-not-allowed disabled:text-white" value="Register" />
+
                     <p className='text-sm font-medium text-gray-900 '>Already registered? <Link to="/login" className='text-secondary pe-auto underline text-blue-500' onClick={navigateLogin}>Please Login</Link></p>
                 </form>
             </div>

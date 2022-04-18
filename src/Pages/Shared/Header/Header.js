@@ -5,6 +5,7 @@ import services from '../../../images/header/services.png';
 import blogs from '../../../images/header/blogs.png';
 import about from '../../../images/header/about.png';
 import login from '../../../images/header/login.png';
+import logout from '../../../images/header/logout.png';
 import logo from '../../../images/home/logo.png';
 import './Header.css';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -13,7 +14,7 @@ import { signOut } from 'firebase/auth';
 const Header = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     const [user] = useAuthState(auth);
-    const handleSignOut = () =>{
+    const handleSignOut = () => {
         signOut(auth);
     }
     return (
@@ -24,7 +25,7 @@ const Header = () => {
                         <span
                             className="flex items-center font-bold leading-relaxed inline-block mr-4 py-1 whitespace-nowrap text-4xl text-blue-600/80"
                         >
-                            <img src={logo} className="" alt="logo"/>
+                            <img src={logo} className="" alt="logo" />
                             <Link to="/">Tutor School</Link>
                         </span>
                         <button
@@ -50,7 +51,7 @@ const Header = () => {
                             <Link
                                 className="nav-item px-3 py-2 flex items-center   hover:opacity-75 font-semibold"
                                 as={Link} to="/services">
-                               <img src={services} className="" alt="" />
+                                <img src={services} className="" alt="" />
                                 Services
                             </Link>
 
@@ -64,19 +65,21 @@ const Header = () => {
                                 className="nav-item px-3 py-2 flex items-center hover:opacity-75 font-semibold"
                                 as={Link} to="/about">
                                 <img src={about} alt="" />
-                                About    
+                                About
                             </Link>
-                     {
-                         user ?
-                                <button onClick={handleSignOut} className="nav-item px-3 py-2 flex items-center hover:opacity-50 font-semibold">Log out</button>
-                                :
-                                <Link
-                                    className="nav-item px-3 py-2 flex items-center hover:opacity-50 font-semibold"
-                                    as={Link} to="/login">
-                                  <img src={login} alt="" />
-                                    Login   
-                                </Link>
-                     }
+                            {
+                                user ?
+                                    <button onClick={handleSignOut} className="nav-item px-3 py-2 flex items-center hover:opacity-50 font-semibold">
+                                        <img src={logout} alt="" />
+                                        Log out</button>
+                                    :
+                                    <Link
+                                        className="nav-item px-3 py-2 flex items-center hover:opacity-50 font-semibold"
+                                        as={Link} to="login">
+                                        <img src={login} alt="" />
+                                        Login
+                                    </Link>
+                            }
                         </div>
                     </div>
                 </div>
