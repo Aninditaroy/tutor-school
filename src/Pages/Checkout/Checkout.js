@@ -1,6 +1,6 @@
 import React from 'react';
 import './Checkout.css';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams,  Link } from 'react-router-dom';
 import swal from 'sweetalert';
 const Checkout = () => {
     const { serviceId } = useParams();

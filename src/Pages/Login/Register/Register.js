@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
 import auth from '../../../firebase.init';
-import Footer from '../../Shared/Footer/Footer';
 import SocialLoginRegister from '../SocialLoginRegister/SocialLoginRegister';
 import './Register.css';
 const Register = () => {
@@ -17,7 +16,6 @@ const Register = () => {
         loading,
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
-
     const registerAlert = () => {
         return swal({
             title: "Good job!",
@@ -31,7 +29,10 @@ const Register = () => {
         const email = event.target.email.value;
         const password = event.target.password.value;
         const confirmPassword = event.target.confirmPassword.value;
-        if (password !== confirmPassword) {
+        if (password.value.length >=6 && confirmPassword.value.length >=6) {
+            return swal("Error!", "Passwords must be in 6 characters or longer!", "error");
+        }
+        else if (password !== confirmPassword) {
             return swal("Error!", "Passwords did't match!", "error");
         }
         await createUserWithEmailAndPassword(email, password);
