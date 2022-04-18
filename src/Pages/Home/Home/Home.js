@@ -4,29 +4,29 @@ import { useNavigate } from 'react-router-dom';
 import useServices from '../../../Hooks/useServices';
 import Service from '../Service/Service';
 import tutor from '../../../images/home/tutor2.png';
-import Footer from '../../Shared/Footer/Footer';
 const Home = () => {
     const [services] = useServices();
     const navigate = useNavigate();
     return (
         <>
             <section>
-                <div className='bg-blue-600/10 pt-5'>
+                <div className='bg-blue-600/10 md:py-10 lg:py-10 xl:pt-3 2xl:pt-0'>
                     <div className='flex lg:flex-row home-area items-center lg:mx-52'>
                         <div>
                             <span className=''>
-                                <h2 className='shrink  home-heading text-blue-600/70 sm:text-xl md:text-lg'>Inspiring tutors,
+                                <h2 className='shrink  home-heading text-blue-600/70 sm:text-xl md:text-xl lg:text-xl'>Inspiring tutors,
                                     <br /> matched with your <br /> courses with <br />
                                     Our <span className='text-blue-800/100'>Tutor School</span>! </h2>
                             </span>
                         </div>
                         <div>
-                            <img src={tutor} alt="" className='home-img' />
+                            <img src={tutor} alt="" className='home-img sm:ml-0 lg:ml-16 xl:ml-20 2xl:ml-20' />
                         </div>
                     </div>
                 </div>
                 <div className="container lg:mx-auto xl:mx-auto 2xl:mx-auto md:mx-auto sm:mx-0">
-                    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-20'>
+                <h2 className='text-4xl text-blue-600/100 text-center py-10 font-semibold hover:underline'>Our Courses</h2>
+                    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-20 courses'>
                         {
                             services.slice(0, 3).map(service => <Service key={service.id} service={service} />)
                         }
@@ -36,7 +36,6 @@ const Home = () => {
                     </span>
                 </div>
             </section>
-            <Footer />
         </>
     );
 };

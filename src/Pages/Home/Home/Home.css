@@ -10,15 +10,47 @@
 }
 @media screen and  (max-width:640px){
     .home-heading {
-        font-size: 56px;
+        font-size: 36px;
         text-align: start;
-        font-family: 'Urbanist', sans-serif;
-        font-weight: 700;
+        line-height: 70px;
     }
     .home-img{
         width: 100%;
     }
     .home-area {
         flex-direction: column;
+    }
+    .courses{
+        padding:15px;
+    }
+}
+@media screen and  (min-width:641px) and  (max-width:768px){
+    .home-heading {
+        font-size: 46px;
+        text-align: start;
+        line-height: 70px;
+        margin-left: 10px;
+    }
+    .home-img{
+        width: 100%;
+    } 
+    .courses{
+        margin-left:50px;
+    }
+}
+@media screen and  (min-width:769px) and  (max-width:1024px){
+    .home-heading {
+        font-size: 66px;
+        text-align: start;
+        line-height: 70px;
+        margin-left: 10px;
+    }
+}
+@media screen and  (min-width:1025px) and  (max-width:1280px){
+    .home-heading {
+        font-size: 70px;
+        text-align: start;
+        line-height: 70px;
+        margin-left: 10px;
     }
 }

@@ -3,7 +3,7 @@
   "name": "Mathematics 101",
   "img": "https://img.freepik.com/free-vector/math-science-concept-with-school-lesson-items-retro-cartoon-style_1284-8084.jpg?t=st=1650209095~exp=1650209695~hmac=8533aae1950c7296604cbc96c8c673f0f78ede5e09e9e10504d3f0bc625f0aa8&w=826",
   "price": "$480.18",
-  "description": "I have been tutoring Mathematics, Physics, Electrical Engineering and MATLAB for more than 10 years now.I specialize in helping with problem-solving techniques, preparing for a test and numerical analysis.",
+  "description": "Mathematics course focuses on the preliminary idea of math. The main aim is to clear the concept of MATLAB & helping with problem-solving techniques, preparing for a test and numerical analysis.",
   "course_title": "Math course"
 }, {
   "id": 2,
@@ -24,7 +24,7 @@
   "name": "Physics 101 Mechanics Course",
   "img": "https://img.freepik.com/free-vector/tiny-people-standing-near-pendulum-isolated-flat-illustration_74855-11130.jpg?t=st=1650209590~exp=1650210190~hmac=0da8bc2683e6327250a9b0207820751bb2df10afc62a494bd035cad8d6a37155&w=826",
   "price": "$491.92",
-  "description": " Physics 101 Mechanics course focuses on fundamental physics ideas and their applications in everyday life. One learns the fundamental principles of physical laws and how to apply them to the behavior of objects by studying the physics of motion from the ground up.",
+  "description": "Physics 101 Mechanics course focuses on fundamental physics ideas and their applications in everyday life. One learns the fundamental principles of physical laws and how to apply them to the behavior of objects by studying the physics of motion from the ground up.",
   "course_title": "Physics Course"
 }, {
   "id": 5,
@@ -35,31 +35,31 @@
   "course_title": "Math Course"
 }, {
   "id": 6,
-  "name": "Coding and Programming Crash Course",
+  "name": "Coding and Programming Course",
   "img": "https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?t=st=1650210507~exp=1650211107~hmac=290b5b5d0d6bd480450e96926cf7616e9409155815da647b90538cf69e914ba3&w=826",
   "price": "$348.60",
-  "description": "I am a qualified software engineer. I am very good at C, C++, Java, Python, Data Structure, Operating systems, and other computer science subjects.",
+  "description": "If you're looking to learn the theory that makes great programmers, you've come to the right place! This course is perfect for anyone interested in learning the fundamentals to Computer Science Theory.",
   "course_title": "Tech course"
 }, {
   "id": 7,
   "name": "Electricity and Magnetism Course",
   "img": "https://img.freepik.com/free-vector/bundle-engineering-set-icons_24877-57315.jpg?t=st=1650210532~exp=1650211132~hmac=ff138a40a678507d1173b2f58d55437703ccf23c09750ac55645a100d4a2c063&w=900",
   "price": "$453.03",
-  "description": "Mechanical and Manufacturing Engineer at Air Taxi startup. Academic Background in Mechanical Engineering, Computer Science and Mathematics.",
+  "description": "Mechanics course focuses on fundamental physics ideas and their applications in everyday life. One learns the fundamental principles of physical laws and how to apply them to the behavior of objects by studying the physics of motion from the ground up.",
   "course_title": "Mechanical Eng. course"
 }, {
   "id": 8,
-  "name": "Sports and Fitness Course",
+  "name": "Sports Leadership Course",
   "img": "https://img.freepik.com/free-vector/gym-fitness-elements-set_1284-39992.jpg?t=st=1650210589~exp=1650211189~hmac=5a6d31f196520b53ef7a040d44a5e6e899b907a7b45a6dcdd10c0afc6841efb3&w=826",
   "price": "$358.90",
-  "description": "Sports Management course is offered for those who have a knack for management and loves to pursue a career in the sports industry. Candidates in the field of Sports Management are expected to hold planning, organising, controlling, budgeting, or directing skills in an organisation that deals in the sports business",
+  "description": "We will cover with valuable information and clear explanations in every episode, you'll easily be able to picture the structure of Sports Revenue Strategies and Analytics , as well as learning how to take your first step in this fascinating field.",
   "course_title": "Sports course"
 }, {
   "id": 9,
-  "name": "IELTS Course",
+  "name": "IELTS prep Course",
   "img": "https://img.freepik.com/free-vector/online-uk-english-language-courses-isometric-3d-illustration_88272-2014.jpg?w=826",
   "price": "$440.72",
-  "description": "The course provides the discussion on the grammatical part and the reading,speaking and writing sections of English.",
+  "description": "Do you need a Band 7+?Then this course is just for you as it prepares participants for all parts of the IELTS exam: Listening, Reading, Writing and Speaking modules. It focuses on teaching the skills and techniques required to sit for the test.",
   "course_title": "English course"
 }, {
   "id": 10,
@@ -87,7 +87,7 @@
   "name": "ICT Crash Course",
   "img": "https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18383.jpg?t=st=1650210732~exp=1650211332~hmac=d857cfa3e03524b6ca608be456319aff82b864d05a7c273c0fbbe209e61ce9c4&w=826",
   "price": "$254.11",
-  "description": "ICT course discusses the ICT test by showcasing the information and communications  section of the test followed by the reading and the Science section.",
+  "description": "ICT(information and communications technology) is an umbrella term that provide access to information through telecommunications.With the help of this course you'll understand terms associated with and Identify various components of a computer system.",
   "course_title": "Tech course"
 }, {
   "id": 14,

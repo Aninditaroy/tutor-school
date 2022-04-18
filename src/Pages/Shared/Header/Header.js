@@ -7,8 +7,15 @@ import about from '../../../images/header/about.png';
 import login from '../../../images/header/login.png';
 import logo from '../../../images/home/logo.png';
 import './Header.css';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
+import { signOut } from 'firebase/auth';
 const Header = () => {
-    const [navbarOpen, setNavbarOpen] = React.useState(false);
+    const [navbarOpen, setNavbarOpen] = useState(false);
+    const [user] = useAuthState(auth);
+    const handleSignOut = () =>{
+        signOut(auth);
+    }
     return (
         <div>
             <nav className="relative flex flex-wrap items-center justify-between px-2 py-3  mb-3 nav-font hover:shadow-lg">
@@ -41,30 +48,35 @@ const Header = () => {
                     >
                         <div className="flex flex-col lg:flex-row lg:ml-auto">
                             <Link
-                                className="nav-item px-3 py-2 flex items-center   hover:opacity-75"
+                                className="nav-item px-3 py-2 flex items-center   hover:opacity-75 font-semibold"
                                 as={Link} to="/services">
                                <img src={services} className="" alt="" />
                                 Services
                             </Link>
 
                             <Link
-                                className="nav-item px-3 py-2 flex items-center  hover:opacity-75"
+                                className="nav-item px-3 py-2 flex items-center  hover:opacity-75 font-semibold"
                                 as={Link} to="/blogs">
                                 <img src={blogs} alt="" />
                                 Blogs
                             </Link>
                             <Link
-                                className="nav-item px-3 py-2 flex items-center hover:opacity-75"
+                                className="nav-item px-3 py-2 flex items-center hover:opacity-75 font-semibold"
                                 as={Link} to="/about">
                                 <img src={about} alt="" />
                                 About    
                             </Link>
-                            <Link
-                                className="nav-item px-3 py-2 flex items-center hover:opacity-75"
-                                as={Link} to="/login">
-                              <img src={login} alt="" />
-                                Login   
-                            </Link>
+                     {
+                         user ?
+                                <button onClick={handleSignOut} className="nav-item px-3 py-2 flex items-center hover:opacity-50 font-semibold">Log out</button>
+                                :
+                                <Link
+                                    className="nav-item px-3 py-2 flex items-center hover:opacity-50 font-semibold"
+                                    as={Link} to="/login">
+                                  <img src={login} alt="" />
+                                    Login   
+                                </Link>
+                     }
                         </div>
                     </div>
                 </div>

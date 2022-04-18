@@ -11,14 +11,14 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
-            <footer className="p-2 sm:p-6 sm:m-3   bg-blue-600/10">
+            <footer className="p-2 sm:p-6 sm:m-3 bg-blue-600/10">
                 <span className="flex items-center font-bold leading-relaxed  mr-4 py-1 whitespace-nowrap text-4xl text-blue-600/80 pb-5 lg:ml-20">
                     <img src={logo} className="" alt="logo" />
                     <Link to="/">Tutor School</Link>
                 </span>
                 <div className="grid grid-cols-2 gap-8 sm:gap-0 sm:grid-cols-3 lg:ml-20">
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Resources</h2>
                         <ul className="text-gray-600 dark:text-gray-400">
                             <li className="mb-4">
                                 <span className="hover:underline">Tutoring Classes</span>
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                         <ul className="text-gray-600 dark:text-gray-400">
                             <li className="mb-4">
                                 <span className="hover:underline">Privacy Policy</span>
@@ -41,8 +41,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow Us On</h2>
-                        <div className="flex sm:flex-col lg:flex-row">
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow Us On</h2>
+                        <div className="flex sm:flex-col md:flex-row lg:flex-row">
                             <img src={google} alt="" className='w-6 h-6 rounded-full' />
                             <img src={github} alt="" className='w-6 h-6 lg:ml-2 rounded-full' />
                             <img src={facebook} alt="" className='w-6 h-6 lg:ml-2 rounded-full' />
@@ -50,8 +50,10 @@ const Footer = () => {
                             <img src={instagram} alt="" className='w-6 h-6 lg:ml-2 rounded-full' />
                             <img src={youtube} alt="" className='w-6 h-6 lg:ml-2 rounded-full' />
                         </div>
-                    </div>
-                </div>
+                    </div>    
+                </div> 
+                <div className='lg:border lg:border-b-1  border-blue-400 mb-2 mt-10   lg:mx-80'></div>
+                <p className="mt-6 text-sm text-gray-900 lg:text-center sm:text-start">©2019-2024 <span className='text-blue-600/80'>Tutor School</span> All Rights Reserved.</p>
             </footer>
         </> 
     );
