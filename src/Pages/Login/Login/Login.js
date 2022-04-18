@@ -6,6 +6,7 @@ import { useSignInWithEmailAndPassword, useSendPasswordResetEmail } from 'react-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SocialLoginRegister from '../SocialLoginRegister/SocialLoginRegister';
+import Loading from '../../Shared/Loading/Loading';
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
@@ -21,6 +22,9 @@ const Login = () => {
     const [sendPasswordResetEmail, passwordSending, passwordError] = useSendPasswordResetEmail(auth);
     if (user) {
         navigate(from, { replace: true });
+    }
+    if(loading || passwordSending){
+        return <Loading/>
     }
     const handleSubmit = event => {
         event.preventDefault();

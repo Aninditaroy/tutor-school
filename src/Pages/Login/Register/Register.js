@@ -3,6 +3,7 @@ import { useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
 import auth from '../../../firebase.init';
+import Loading from '../../Shared/Loading/Loading';
 import SocialLoginRegister from '../SocialLoginRegister/SocialLoginRegister';
 import './Register.css';
 const Register = () => {
@@ -16,6 +17,9 @@ const Register = () => {
         loading,
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
+    if( loading){
+        return <Loading/>
+    }
     const registerAlert = () => {
         return swal({
             title: "Good job!",
