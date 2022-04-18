@@ -17,7 +17,7 @@ const Register = () => {
         loading,
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
-  
+
     const registerAlert = () => {
         return swal({
             title: "Good job!",
