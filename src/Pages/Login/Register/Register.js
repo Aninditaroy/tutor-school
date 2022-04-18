@@ -16,7 +16,7 @@ const Register = () => {
         createUserWithEmailAndPassword,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     if( loading){
         return <Loading/>
     }
@@ -33,10 +33,7 @@ const Register = () => {
         const email = event.target.email.value;
         const password = event.target.password.value;
         const confirmPassword = event.target.confirmPassword.value;
-        if (password.value.length >=6 && confirmPassword.value.length >=6) {
-            return swal("Error!", "Passwords must be in 6 characters or longer!", "error");
-        }
-        else if (password !== confirmPassword) {
+        if (password !== confirmPassword) {
             return swal("Error!", "Passwords did't match!", "error");
         }
         await createUserWithEmailAndPassword(email, password);
