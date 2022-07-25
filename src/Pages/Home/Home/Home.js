@@ -36,7 +36,7 @@ const Home = () => {
 
                     </div>
                     <span className='flex justify-center'>
-                        <button onClick={() => navigate('/services')} className="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-gray-900 text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300   shadow-lg mb-10">See All Services</button>
+                        <button onClick={() => navigate('/services')} className="inline-flex items-center py-2 px-4 text-sm font-medium text-center  text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300  shadow-lg mb-10">See All Services</button>
                     </span>
                 </div>
             </section>
